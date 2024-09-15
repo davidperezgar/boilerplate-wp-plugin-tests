@@ -5,3 +5,7 @@ This is a repository to setup Initial Tests to your WordPress Plugins, and some 
 ## Setup
 
 1. Copy the repository folder to a plugin. Make sure that you merge changes.
+
+## Credits
+
+Thanks to [Nilambar](https://github.com/ernilambar).
