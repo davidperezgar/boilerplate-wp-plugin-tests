@@ -1,0 +1,18 @@
+<phpunit
+	bootstrap="tests/bootstrap.php"
+	backupGlobals="false"
+	colors="true"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="true"
+	convertWarningsToExceptions="true"
+	cacheResultFile="./tests/.phpunit.result.cache"
+	>
+
+	<testsuites>
+		<testsuite name="test-web">
+			<directory prefix="test-" suffix=".php">
+				./tests/unit/
+			</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
